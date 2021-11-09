@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Garmin Support</title>
+</head>
+<body>
+     <!-- Navbar -->
+     <div class="container-sm">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <button id="tog-btn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand  ms-1" href="/index.html"><img src="/images/logo.png" alt="garmin logo"></a>
+         
+              <div class="collapse navbar-collapse navListLink" id="navbarNav">
+                 <form class="d-flex mt-4">
+                   <input id="navbarInput" class="form-control me-2" type="search"  placeholder="Search garmin.com" aria-label="Search">
+                   <label><i class="fas fa-search"></i></label>
+                 </form>
+                 <ul id="main-nav-ul" class="navbar-nav ms-auto text-s me-4">
+                   <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       WEARABLES                  </a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                       <li><a class="dropdown-item" href="#">PRODUCTS</a></li>
+                       <li><a class="dropdown-item" href="#">MAPS</a></li>
+                       <li><a class="dropdown-item" href="#">ACCESSORIES</a></li>
+                       <li><a class="dropdown-item" href="#">DISCOVER</a></li>
+                     </ul>
+                   </li>
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         SPORTS & FITNESS                    </a>
+                       <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                         <li><a class="dropdown-item" href="#">PRODUCTS</a></li>
+                         <li><a class="dropdown-item" href="#">MAPS</a></li>
+                         <li><a class="dropdown-item" href="#">ACCESSORIES</a></li>
+                         <li><a class="dropdown-item" href="#">DISCOVER</a></li>
+   
+                       </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         OUTDOOR RECREATION                    </a>
+                       <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                         <li><a class="dropdown-item navDropItem" href="#">PRODUCTS</a></li>
+                         <li><a class="dropdown-item" href="#">MAPS</a></li>
+                         <li><a class="dropdown-item" href="#">ACCESSORIES</a></li>
+                         <li><a class="dropdown-item" href="#">DISCOVER</a></li>
+                       </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         AUTOMOTIVE                    </a>
+                       <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                         <li><a class="dropdown-item" href="#">PRODUCTS</a></li>
+                         <li><a class="dropdown-item" href="#">MAPS</a></li>
+                         <li><a class="dropdown-item" href="#">DISCOVER</a></li>
+                       </ul>
+                     </li> 
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         MARINE
+                       </a>
+                       <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                         <li><a class="dropdown-item" href="#">PRODUCTS</a></li>
+                         <li><a class="dropdown-item" href="#">CHARTS & MAPS</a></li>
+                         <li><a class="dropdown-item" href="#">DISCOVER</a></li>
+                       </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         AVIATION
+                       </a>
+                       <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                         <li><a class="dropdown-item" href="#">MARKETS</a></li>
+                         <li><a class="dropdown-item" href="#">FLTPLAN.COM SERVICES</a></li>
+                         <li><a class="dropdown-item" href="#">PRODUCTS</a></li>
+                         <li><a class="dropdown-item" href="#">DATABASES</a></li>
+                         <li><a class="dropdown-item" href="#">DISCOVER</a></li>
+                       </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         SUPPORT
+                       </a>
+                       <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                         <li><a class="dropdown-item" href="#">Support Center</a></li>
+                         <li><a class="dropdown-item" href="#">Aviation Support</a></li>
+                         <li><a class="dropdown-item" href="#">Marine Support</a></li>
+                       </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         SALE
+                       </a>
+                       <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                         <li><a class="dropdown-item" href="#">SALES AND PROMOTIONS</a></li>
+                       </ul>
+                     </li>
+                 </ul>
+               </div>
+               <div class="nav-icon me-5 ">
+                   <a href=""><i class="far fa-question-circle nav-icon4 pe-2"></i></a>
+                   <a href=""><i class="fab fa-searchengin nav-icon3 pe-2 position-relative"></i></a>
+                   <a href=""><i class="far fa-user-circle nav-icon2 pe-2"></i></a>
+                   <a href=""><i class="fas fa-shopping-cart nav-icon1 me-2"></i></a>
+               </div>
+            </div>
+          </nav>
+          <div class="navStripe">FREE GROUND SHIPPING ON ORDERS $25 AND UP. FREE 2ND-DAY SHIPPING ON MOST ORDERS $499 AND UP.</div>
+          <div class="text-center supportBanner">
+           <a class="text-primary" href="#" style="text-decoration: none;">GARMIN SUPPORT CENTER</a> 
+          </div>
+       </div>
+
+       <!-- Head section-->
+       
+       <div class="container-fluid supportHeroPic" style="background-image: url('images/support1.jpg');">
+        <h1 class="display-2 ">Help<br>Starts<br>Here</h1>
+        <form class="me-2">
+            <label for="serialNum" class="form-label fs-5 p-1"> Enter a Product Name or Serial Number </label>
+            <input type="" id="serialNum" class="form-control py-2 px-3 fs-6 my-2" aria-describedby="passwordHelpBlock" placeholder="Enter Product Name or Serial Number">
+            <div id="serialNum" class="form-text mt-5">
+               <ul style="list-style-type: none;">
+                   <li class="my-3">
+                       <a class="text-dark" href="#">Having trouble?</a>
+                   </li>
+                   <li>
+                    <a class="text-dark" href="#"> The help I need is not related to a product</a>
+                </li>
+               </ul>
+               <div class=" my-5">
+                   <div class="border border-1 border-dark border-top"></div>
+                   <ul class="list-group list-group-horizontal my-3">
+                    <li class="list-group-item bg-transparent border border-0" ><p class="fw-bold fs-4" style="cursor: pointer;">MARINE SUPPORT ></p></li>
+                    <li class="list-group-item bg-transparent border border-0" ><p class="fw-bold fs-4" style="cursor: pointer;">AVIATION SUPPORT ></p></li>
+                  </ul>
+               </div>
+            </div>
+        </form>
+        <div class="supportHeroPic-items">
+            <img src="/images/support1-items.png" alt="" >
+        </div>
+       </div>
+
+
+       <!-- Bottom section -->
+       <div class="container-fluid supportResource">
+        <div class="row">
+          <div class="col-sm-4 col-lg-4 ps-5 pb-3">
+            <h1 class="my-5">Additional Resources</h1>
+            <table class="table-borderless">
+              <thead>
+                <tr>
+                  <th class="py-2" scope="col">Resources</th>
+                </tr>
+                <tr>
+                  <td class="py-2" style="cursor: pointer;">  Order or Return Status  </td>
+                </tr>
+                <tr>
+                  <td class="py-2" style="cursor: pointer;"> Return for Refund Request </td>
+                </tr>
+                <tr>
+                  <td class="py-2" style="cursor: pointer;"> Cancel or Update My Order </td>
+                </tr>
+                <tr>
+                  <td class="py-2" style="cursor: pointer;"> Software & Map Updates </td>
+                </tr>
+                <tr>
+                  <td class="py-2" style="cursor: pointer;"> How-To Videos </td>
+                </tr>
+                <tr>
+                  <td class="py-2" style="cursor: pointer;"> Manuals </td>
+                </tr>
+                <tr>
+                  <td class="py-2" style="cursor: pointer;"> About Tech Support Scams </td>
+                </tr>
+                <tr>
+                  <td class="py-2" style="cursor: pointer;"> Warranty Policy </td>
+                </tr>
+                <tr>
+                  <td class="py-2" style="cursor: pointer;"> Service Alerts </td>
+                </tr>
+                <tr>
+                  <td class="py-2" style="cursor: pointer;"> Find a Dealer </td>
+                </tr>
+                <tr>
+                  <td class="py-2" style="cursor: pointer;"> Contact Support </td>
+                </tr>
+                <tr>
+                  <td class="py-2" style="cursor: pointer;"> Support Center Survey </td>
+                </tr>
+              </thead>
+            </table>
+          </div>
+          <div class="col-sm-8  col-lg-8 p-0">
+            <img class="supportResource-Pic" src="/images/support2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+
+
+
+       <footer class="py-3 my-5 bg-dark ">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">CUSTOMER SERVICE</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">COMPANY</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">CAREERS</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">GARMIN SITES</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">PARTNERS</a></li>
+        </ul>
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white"><i class="fab fa-twitter fa-2x"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white"><i class="fab fa-youtube fa-2x"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white"><i class="fab fa-pinterest fa-2x"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white"><i class="fab fa-instagram fa-2x"></i></a></li>
+        </ul>
+        <p class="text-center text-white">© 2021 Company, Inc</p>
+      </footer>
+</body>
+</html>
