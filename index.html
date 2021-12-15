@@ -12,27 +12,24 @@
 </head>
 <body>
    <header>
-       <div class="container-sm">
+       <div class="container-sm" style="box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);">
            <!-- Navbar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-              <a class="navbar-brand  ms-4" href="#"><i class="fas fa-user-astronaut"></i><span class="nav-logo">Christopher Beech</span></a>
+              <a class="navbar-brand  ms-4" href="https://www.linkedin.com/in/christopher-beech-350/" target="_blank"><i class="fas fa-user-astronaut"></i><span class="nav-logo">Christopher Beech</span></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto text-center me-4">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#passion">Passion</a>
+                    <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#experience">Experience</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#about">About</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="mailto:beechchristopher350@gmail.com" target="_blank">Contact</a>
@@ -43,55 +40,55 @@
           </nav>
        </div>
        <!-- Hero Image -->
-       <div class="hero container-sm">
-          <img  src="./images/hero-img3.jpg" alt="A Rocketship">
+       <div class="hero" style="background-image: url('https://images.pexels.com/photos/705164/computer-laptop-work-place-camera-705164.jpeg?cs=srgb&dl=pexels-skitterphoto-705164.jpg&fm=jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;" >
+          <!-- <img  src="./images/hero-img3.jpg" alt="A Rocketship"> -->
         
-          <h1>Hi, I'm Christopher</h1>
-          <p>Web Developer</p>
+          <h1>Hi, I'm Chris <br> Web developer</h1>
 
-          <div class="hero-arrow">
-             <i class="fas fa-angle-down fa-3x"></i>
-          </div>
       </div>
    </header>
-   <main class="master">
-       <!-- About Me -->
-       <div id="about"></div>
-       <br>
-       <br>
-       <div class="about-me container-sm">
-           <h2 class="display-4">About Me</h2>
-           <!-- <div class="pic">
-                <img src="https://via.placeholder.com/170/.png/fffC/O https://placeholder.com/" alt="Photo of me">
-           </div> -->
-           <div class="about-text">
-                <p class="fs-5">Hello, my name is Christopher and I'm a web developer with a passion for front-end development. I'm currently enrolled in Promineo Tech Bootcamp. I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.</p>
+   <main class="container master" style="background: white;">
+        <!-- Projects -->
+        <div id="projects"></div>
+        <br>
+        <br>
+        <br>
+        
+        <div   class="container-sm project">
+           <h2 class="display-4">Projects</h2>
+ 
+           <div class="row container-fluid project-list">
+             <!-- Project  Placeholders-->
+               <!-- <div class="project-1">
+                   <img src="https://via.placeholder.com/200C/O https://placeholder.com/" width="200" height="200" alt="project 1">
+               </div>
+               <div class="project-2">
+                   <img src="https://via.placeholder.com/200C/O https://placeholder.com/" alt="project 2">
+               </div>
+               <div class="project-3">
+                   <img src="https://via.placeholder.com/200C/O https://placeholder.com/" alt="project 3">
+               </div>
+               <div class="project-4">
+                   <img src="https://via.placeholder.com/200C/O https://placeholder.com/" alt="project 4">
+               </div> -->
+               <div class="col-4 project-1 m-3">
+                 <a href="https://cranky-lumiere-d6e606.netlify.app/" target="_blank"><img src="./images/project1.jpg" class="card-img-top" alt="..."></a>
+                 
+               </div>
+               <div class="col-4 project-2 m-3" >
+                 <a href="https://peaceful-yonath-09f915.netlify.app/" target="_blank"><img src="./images/project6.jpg" class="card-img-top" alt="..."></a>
+               </div>        
+               <div class="col-4 project-3 m-3" >
+                 <a href="https://loving-nobel-511512.netlify.app/" target="_blank"><img src="./images/project3.jpg" class="card-img-top" alt="..."></a>
+               </div>
+               <div class="col-4 project-4 m-3">
+                 <a href="https://quirky-kilby-c1eb30.netlify.app/" target="_blank"><img src="./images/project4.jpg" class="card-img-top" alt="..."></a>
+               </div>
+               <div class="col-4 project-5 m-3" >
+                 <a href="http://smccweb.org/Web1ChriB20F/weatherApp/index.html" target="_blank"><img src="./images/project2.jpg" class="card-img-top" alt="..."></a>
+               </div>
            </div>
-       </div>
-       <div id="passion"></div>
-       <br>
-       <br>
-       <br>
-       <br>
-
-       <div class="about-list container-sm">
-           <h2 class="display-4">My Passions</h2>
-            <div class="icons">
-                <i class="far fa-keyboard fa-3x"></i>
-                <h6>Web Development</h6>
-            </div>
-            <div class="icons">
-                <i class="fas fa-language fa-3x"></i>
-                <h6>Foreign Languages:</h6>
-                <br>
-                <p>French (Limited working proficiency)</p>
-                <p>Spanish (Elementary proficiency)</p>
-            </div>
-            <div class="icons">
-                <i class="fas fa-plane-departure fa-3x"></i>
-                <p>Traveler</p>
-            </div>
-       </div>
+        </div>
        <!-- Experience -->
        <div id="experience"></div>
        <br>
@@ -111,77 +108,32 @@
                     <li><i id="git" class="fab fa-git-alt fa-4x"></i></li>
                     <li><img id="jq" src="./images/jquery.png" alt=""></li>
                 </ul>
-                <p><span><a class="btn btn-primary mt-4 py-3 px-3 fs-5" href="myResume.pdf" target="_blank" style="text-decoration: none;">My Résumé</a></span></p>
+               
+                <p><span><a class="btn btn-primary mt-4 py-3 px-3 fs-5" href="myResume2.pdf" target="_blank" style="text-decoration: none;">My Résumé</a></span></p>
            </div>
        </div>
        <div class="parallax"></div>
-       <!-- Projects -->
-       <div id="projects"></div>
-       <br>
-       <br>
-       <br>
        
-       <div   class="container-sm project">
-         <h2 class="display-4">Projects</h2>
-
-         <div class="container project-list">
-          <!-- Project  Placeholders-->
-              <!-- <div class="project-1">
-                  <img src="https://via.placeholder.com/200C/O https://placeholder.com/" width="200" height="200" alt="project 1">
-              </div>
-              <div class="project-2">
-                  <img src="https://via.placeholder.com/200C/O https://placeholder.com/" alt="project 2">
-              </div>
-              <div class="project-3">
-                  <img src="https://via.placeholder.com/200C/O https://placeholder.com/" alt="project 3">
-              </div>
-              <div class="project-4">
-                  <img src="https://via.placeholder.com/200C/O https://placeholder.com/" alt="project 4">
-              </div> -->
-              <div class="card project-1 m-3" style="width: 22rem;">
-                <a href="https://vibrant-carson-767eb5.netlify.app/" target="_blank"><img src="./images/project1.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                  <p class="card-text fw-bold fs-2"><a class="projectLinks" href="https://vibrant-carson-767eb5.netlify.app/" target="_blank">JB Consulting</a></p>
-                </div>
-              </div>
-
-              <!-- Temperary pause on the Weather App due to API not being https  -->
-              <!-- <div class="card project-1 m-3" style="width: 22rem;">
-                <a href=".." target="_blank"><img src="./images/project2.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                  <p class="card-text fw-bold fs-2"><a class="projectLinks" href=".." target="_blank">Weather App</a></p>
-                </div>
-              </div> -->
-              <div class="card project-3 m-3" style="width: 22rem;">
-                <a href="https://loving-nobel-511512.netlify.app/" target="_blank"><img src="./images/project3.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                  <p class="card-text fw-bold fs-2"><a class="projectLinks" href="https://loving-nobel-511512.netlify.app/" target="_blank">Garmin Clone</a></p>
-                </div>
-              </div>
-              <div class="card project-4 m-3" style="width: 22rem;">
-                <a href="https://loving-nobel-511512.netlify.app/" target="_blank"><img src="./images/project4.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                  <p class="card-text fw-bold fs-2"><a class="projectLinks" href="https://loving-nobel-511512.netlify.app/" target="_blank">Quiz App</a></p>
-                </div>
-              </div>
-              <div class="card project-5 m-3" style="width: 22rem;">
-                <a href="https://cranky-goldwasser-990bf5.netlify.app/" target="_blank"><img src="./images/project5.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                  <p class="card-text fw-bold fs-2"><a class="projectLinks" href="https://cranky-goldwasser-990bf5.netlify.app/" target="_blank">Daily Planner App</a></p>
-                </div>
-              </div>        
-              
-         </div>
-
+       <!-- About Me -->
+       <div id="about"></div>
+       <br>
+       <br>
+       <div class="about-me container-sm">
+           <h2 class="display-4">About Me</h2>
+           <div class="pic">
+                <img src="./images/me.jpg" alt="Photo of me">
+           </div>
+           <div class="about-text">
+                <p class="fs-5">Hello, my name is Christopher and I'm a web developer with a passion for front-end development. My goal is to constantly grow as a professional and create meaningful software that helps people.
+                </p>
+           </div>
        </div>
-
    </main>
    <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About</a></li>
-      <li class="nav-item"><a href="#passion" class="nav-link px-2 text-muted">Passion</a></li>
-      <li class="nav-item"><a href="#experience" class="nav-link px-2 text-muted">Experience</a></li>
       <li class="nav-item"><a href="#projects" class="nav-link px-2 text-muted">Projects</a></li>
+      <li class="nav-item"><a href="#experience" class="nav-link px-2 text-muted">Experience</a></li>
+      <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About</a></li>
       <li class="nav-item"><a href="mailto:beechchristopher350@gmail.com"  target="_blank" class="nav-link px-2 text-muted">Contact</a></li>
     </ul>
     <p class="text-center text-muted">© 2021 Christopher Beech <a href="https://www.linkedin.com/in/christopher-beech-350/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a</p>
